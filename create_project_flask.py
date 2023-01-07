@@ -1,6 +1,9 @@
 import os
 import subprocess as sub
 
+#local imports
+from filesFlaskSkeleton import *
+
 #name of project
 name_project = input('Project Name?\n')
 
