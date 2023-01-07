@@ -9,7 +9,7 @@ msg = 'this message was sendend of vs code'
 result = requests.post(url,json={'text':msg})
 
 if result.text =='ok':
-    print('/// message was recibed successfully')
+    print(f'the msg was send succesfully')
 else:
     print('algo anda mal',result.text)
     
